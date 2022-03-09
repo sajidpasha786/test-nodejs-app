@@ -6,19 +6,19 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'echo "downloading dependencies' 
+            echo 'downloading dependencies' 
         }
      }
      
      stage('Test') { 
         steps { 
-           sh 'echo "testing application..."'
+            echo 'testing application...'
         }
       }
 
          stage("Deploy application") { 
          steps { 
-           sh 'echo "deploying application..."'
+             echo 'deploying application...'
          }
 
      }
