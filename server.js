@@ -1,7 +1,7 @@
 
 'use strict';
 
-const express = require('expressed');
+const express = require('express');
 
 // Constants
 const PORT = 8080;
